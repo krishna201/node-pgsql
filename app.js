@@ -7,6 +7,7 @@ const helper=require('./helper')
 const index = require('./routes/index');
 const app = express();
 
+// middleware
 app.use(logger('dev'));
 app.use(cors())
 app.use(bodyParser.json());
